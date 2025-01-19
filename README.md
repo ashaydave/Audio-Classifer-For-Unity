@@ -21,3 +21,9 @@ YAMnet based audio classification and tagging for audio files in Unity to help y
 ## Requirements
 - Windows 10 or later
 - Unity 2020.3 or later
+
+# YAMnet Information:
+
+- Find more about the model used here: https://github.com/tensorflow/models/tree/master/research/audioset/yamnet
+- YAMNet is a pretrained deep net that predicts 521 audio event classes based on the AudioSet-YouTube corpus [https://research.google.com/audioset/], and employing the Mobilenet_v1 [https://arxiv.org/pdf/1704.04861] depthwise-separable convolution architecture.
+

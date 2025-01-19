@@ -12,7 +12,7 @@ YAMnet based audio classification and tagging for audio files in Unity to help y
 1. Go to Tools > Audio Classifier in Unity's menu
 2. Select the folder containing your audio files
 3. Click "Run Classification"
-4. Audio files will be automatically organized into categories in an "Audio" folder
+4. Audio files will be automatically organized into categories in aa "Classified YAMnet Audio" folder
 
 ## Supported Formats
 - WAV files

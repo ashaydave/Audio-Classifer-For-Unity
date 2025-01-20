@@ -44,6 +44,7 @@ Assets/
 
 - Find more about the model used here: https://github.com/tensorflow/models/tree/master/research/audioset/yamnet
 - YAMNet is a pretrained deep net that predicts 521 audio event classes based on the AudioSet-YouTube corpus [https://research.google.com/audioset/], and employing the Mobilenet_v1 [https://arxiv.org/pdf/1704.04861] depthwise-separable convolution architecture
+- The code downloads the model from [Tensorflow hub](https://tfhub.dev/google/yamnet/1), so a local copy of the model isn't stored.
 
 # Limitations:
 - While the model is able to distinguish between most audio information, it still struggles with a few sounds and may categorize them as "Silence". This tool is best used to speed up your organizing of sounds that you most certainly know exist in your asset database, but it is recommended to skim over your assets once before finalizing your structure.

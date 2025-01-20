@@ -35,6 +35,7 @@ def ensure_sample_rate(original_sample_rate, waveform, desired_sample_rate=16000
         waveform = scipy.signal.resample(waveform, desired_length)
     return desired_sample_rate, waveform
 
+# Doesn't work - Couldn't find ffprobe or avprobe. Might need to use ffmpeg.
 def convert_to_wav(audio_path):
     """Convert audio file to WAV format if needed."""
     try:
@@ -105,7 +106,7 @@ def process_directory(input_path):
                 
                 classifications = classify_audio_file(model, class_names, file_path)
                 if classifications:
-                    main_class = classifications[0][0]  # Get the top classification
+                    main_class = classifications[0][0]  # Get the top classification, this can be changed semantically later.
                     
                     class_dir = os.path.join(audio_dir, main_class)
                     os.makedirs(class_dir, exist_ok=True)

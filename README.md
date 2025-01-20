@@ -5,7 +5,22 @@ YAMnet based audio classification and tagging for audio files in Unity to help y
 ## Installation
 1. In Unity, go to Assets > Import Package > Custom Package
 2. Choose the AudioClassifierForUnity.unitypackage file
-
+3. This is how your folder heirarchy should look like:
+   
+```
+Assets/
+└── AudioClassifier/
+    ├── Editor/
+    │   └── AudioClassifierWindow.cs
+    ├── Runtime/
+    │   └── AudioClassifier.exe
+    └── Documentation~/
+        ├── README.md
+        └── images/
+            └── screenshot1.png
+            └── screenshot2.png
+            └── screenshot3.png
+```
 ## Usage
 1. Go to Tools > Audio Classifier in Unity's menu
 2. Select the folder containing your audio files
@@ -16,8 +31,7 @@ YAMnet based audio classification and tagging for audio files in Unity to help y
 - Mono or stereo WAV files
 
 ## Requirements
-- Windows 10 or later
-- Unity 2020.3 or later
+- Unity 2022.3 or later
 
 # YAMnet Information:
 

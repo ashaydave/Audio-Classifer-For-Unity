@@ -28,7 +28,7 @@ Assets/
    
 ![Image](https://github.com/user-attachments/assets/bcf9bf3b-ce3c-4a18-a24f-24489809047c)
 
-5. Audio files will be automatically organized into categories in a "Classified YAMnet Audio" folder
+4. Audio files will be automatically organized into categories in a "Classified YAMnet Audio" folder
    
 ![Image](https://github.com/user-attachments/assets/845842c7-735e-4ca4-8658-5e0320031477)
 

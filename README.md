@@ -2,6 +2,8 @@
 
 YAMnet based audio classification and tagging for audio files in Python to help you organize your audio assets much faster in Unity!
 
+![Image](https://github.com/user-attachments/assets/aa01fd92-5f18-467d-9427-744a600b6c25)
+
 ## Installation
 1. In Unity, go to Assets > Import Package > Custom Package
 2. Choose the AudioClassifierForUnity.unitypackage file

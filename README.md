@@ -1,4 +1,4 @@
-# Audio Classifer For Unity
+# Audio Classifier For Unity
 
 YAMnet based audio classification and tagging for audio files in Python to help you organize your audio assets much faster in Unity!
 

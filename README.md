@@ -51,6 +51,11 @@ Assets/
 # Limitations:
 - While the model is able to distinguish between most audio information, it still struggles with a few sounds and may categorize them as "Silence". This tool is best used to speed up your organizing of sounds that you most certainly know exist in your asset database, but it is recommended to skim over your assets once before finalizing your structure.
 
+# Future Improvements
+- Multimodal input - using text or filename to give another layer of abstraction instead of just relying on audio data.
+- Parallel processing to speed up the extraction process.
+- Maybe a cleaner UI window?
+
 # List of audio event classes:
 ```
 Speech, Child speech, kid speaking, Conversation, Narration, monologue, Babbling, Speech synthesizer, Shout, Bellow, Whoop,
